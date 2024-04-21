@@ -1,0 +1,27 @@
+{
+  "headers" : {
+     "login" : {
+           "Content-Type" : "application/json"
+           }
+         },
+         
+       "payload" : {
+       "login" : {
+          "username": "vineesha@tek.com",
+          "password" : "Admin123"
+    },
+    
+    "adduser" : {
+         "accountno":"TA-1000444",
+		"departmentno":"4",
+		"salary":"75000",
+		"pincode":"505007"
+    }
+  },
+  "endPoints" : {
+  "login" : "login",
+  "addData" : "addData",
+  "getData" : "getdata"
+
+}
+}

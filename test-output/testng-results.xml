@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-04T19:50:23 MST" name="Default suite" finished-at="2024-01-04T19:50:26 MST" duration-ms="3396">
+    <groups>
+    </groups>
+    <test started-at="2024-01-04T19:50:23 MST" name="Default test" finished-at="2024-01-04T19:50:26 MST" duration-ms="3396">
+      <class name="tests.UserMenuTest">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:tests.UserMenuTest@7776ab]" started-at="2024-01-04T19:50:11 MST" name="configuration" finished-at="2024-01-04T19:50:11 MST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:tests.UserMenuTest@7776ab]" started-at="2024-01-04T19:50:11 MST" name="preCondition" finished-at="2024-01-04T19:50:23 MST" depends-on-methods="tests.BaseTest.configuration" duration-ms="11601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="selectMyProfile_TC06_01()[pri:0, instance:tests.UserMenuTest@7776ab]" started-at="2024-01-04T19:50:23 MST" name="selectMyProfile_TC06_01" finished-at="2024-01-04T19:50:24 MST" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMyProfile_TC06_01 -->
+        <test-method is-config="true" signature="waitForSometime()[pri:0, instance:tests.UserMenuTest@7776ab]" started-at="2024-01-04T19:50:24 MST" name="waitForSometime" finished-at="2024-01-04T19:50:26 MST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForSometime -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UserMenuTest@7776ab]" started-at="2024-01-04T19:50:26 MST" name="tearDown" finished-at="2024-01-04T19:50:29 MST" duration-ms="2820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.UserMenuTest@7776ab]" started-at="2024-01-04T19:50:29 MST" name="teardown" finished-at="2024-01-04T19:50:30 MST" depends-on-methods="tests.UserMenuTest.tearDown" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.UserMenuTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
