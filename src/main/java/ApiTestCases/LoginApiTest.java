@@ -42,9 +42,6 @@ public class LoginApiTest extends BaseApiTest {
 	public void getDataTest02() {
 		Response getReq = RestAssured.given().header("Content-type", "application/json").header("token", token).when().get("getdata").then()
 				.statusCode(200).extract().response();
-
-		// System.out.println(getReq.asPrettyString());
-
 	}
 
 	@Test()
